@@ -1,30 +1,21 @@
 
 
-.App-container {
+.section-center {
     max-width: 500px;
     width: 80%;
     margin: 0 auto;
     padding-top: 4rem;
 }
 
-.cart-con {
+.section-con{
     box-shadow: 2px 2px 14px -7px rgba(0,0,0,1);
     padding: 1.3rem;
     border-radius: 5px;
+    text-align: center;
 }
 
-.form-in > label {
-    display: block;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-bottom: 2px;
-}
-.form-in  {
-    padding: .5rem 0;
-}
-.form-in > input {
-    width: 94%;
+input {
+    width: 10%;
     font-size: 1rem;
     outline: none;
     border: 2px solid #dfdfdf ;
@@ -32,35 +23,47 @@
     padding: 10px;
     border-radius: 5px;
 }
-.form-in > input:focus {
+input:focus {
     border: 2px solid aqua;
     box-shadow: 2px 2px 18px -11px rgba(0,0,0,1);
 
 }
-.submit-btn {
+.section-con > h2 {
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn {
     border: none;
     background-color: blue;
     color: white;
     border-radius: 5px;
-    padding: 6px 1rem;
+    padding:  10px;
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
     margin-top: 1rem;
-    width: 50%;
+    width: 20%;
+    margin-left: 1rem;
 }
 
-.showmem {
-    margin-top: 2rem;
-}
-.info-con > p {
+.item-con > h1 {
     margin: 0;
+    text-align: start;
+
 }
-.no-user {
-    box-shadow: 2px 2px 14px -7px rgba(0,0,0,1);
-    padding: 1.3rem;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 600;
+.item-con > h3 {
+    text-align: start;
+    margin : 0;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+.testing-con {
+    padding-top : 2rem;
+    display: grid;
+    gap : 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.item-con > p {
+    margin: 0;
+    text-align: start;
 }
